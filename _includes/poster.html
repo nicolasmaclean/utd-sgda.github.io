@@ -7,7 +7,7 @@
 
    {% if include.image contains ".mp4" %}
       <video class="{{ card-attr }} border-radius-md overflow-hidden w-full" autoplay muted loop>
-         <source src="/assets/images/posters/{{ include.image }}">
+         <source src="{{site.url}}/assets/images/posters/{{ include.image }}">
       </video>
    {% else %}
       <img class="{{ card-attr }} border-radius-md overflow-hidden" src="/assets/images/posters/{{ include.image }}" alt="This is the event's poster. Please look below for that information typed out!">

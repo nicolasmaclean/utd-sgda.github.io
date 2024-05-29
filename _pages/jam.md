@@ -7,7 +7,7 @@ Description: Here are the winners of our previous game jam!
 {% for jam in site.data.jams %}
 <div id="{{ jam.title | slugify }}" class="text-center mt-8">
     <a class="mx-auto display-block w-full lg:w-3/5" href="{{ jam.link }}" target="#">
-       <img class="card-{{ jam.color }} border-radius-md overflow-hidden" src="/assets/images/posters/{{ jam.poster }}" alt="This is a poster of the jam's winners. Please look below for that information typed out!">
+       <img class="card-{{ jam.color }} border-radius-md overflow-hidden" src="{{site.url}}/assets/images/posters/{{ jam.poster }}" alt="This is a poster of the jam's winners. Please look below for that information typed out!">
     </a>
 </div>
 

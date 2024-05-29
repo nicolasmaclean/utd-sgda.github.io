@@ -13,7 +13,7 @@ Throughout the Fall and Spring semesters, we generally have meetings every *Wedn
 
 <p class="p-1"></p>
 
-<div class="text-center"><a class="button" href="/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord </a></div>
+<div class="text-center"><a class="button" href="{{site.url}}/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord </a></div>
 
 <p class="p-1 lg:p-4"></p>
 
@@ -22,7 +22,7 @@ Throughout the Fall and Spring semesters, we generally have meetings every *Wedn
 
 <p class="p-1 lg:p-4"></p>
 
-<div class="text-center"><a class="button" href="/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord </a></div>
+<div class="text-center"><a class="button" href="{{site.url}}/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord </a></div>
 
 <p class="p-1 lg:p-4"></p>
 
